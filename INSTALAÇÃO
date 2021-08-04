@@ -1,0 +1,4 @@
+apt-get update
+apt-get upgrade
+apt install fastnetmon zip curl wget python-pip socat -y
+nano /etc/networks_list
