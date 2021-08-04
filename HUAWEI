@@ -14,3 +14,9 @@ ip netstream export host FASTNETMON_IP  2056
 
 slot
 ip netstream sampler to slot self
+
+interface Eth-Trunk10
+ip netstream inbound
+ip netstream outbound
+ipv6 netstream inbound
+ipv6 netstream outbound
